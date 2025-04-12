@@ -15,15 +15,17 @@
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
 }
-html{box-sizing: border-box;}
+html {
+  box-sizing: border-box;
+}
 *,
 *::before,
-*::after{
+*::after {
   box-sizing: inherit;
 }
 body {
   font-family: "Roboto", sans-serif;
-  
+
   font-size: 16px;
   font-weight: regular;
   line-height: 1, 5;
@@ -32,7 +34,9 @@ body {
 }
 
 .logo {
-  padding: 24px 156px;
+  width: 125px;
+  height: 24;
+  padding-left: 156px;
 }
 .logo .studio-head {
   color: var(--navy-blue);
@@ -44,11 +48,10 @@ body {
 .logo > a {
   text-decoration: none;
 }
-.address{
+.address {
   display: flex;
 }
 .header {
-  
   width: 1440px;
   height: 72px;
   display: flex;
@@ -62,6 +65,7 @@ body {
 .menu {
   width: auto;
   height: 24px;
+  margin-left: 140px;
 
   display: flex;
   gap: 40px;
@@ -79,13 +83,14 @@ body {
 }
 
 .address {
-  width: auto;
- 
+  margin-top: 14px;
+  padding-left: 330px;
+  padding-right: 156px;
+
   display: flex;
   gap: 40px;
 }
 .address > a {
-  
   height: 24px;
 
   color: var(--navy-blue);
@@ -132,33 +137,41 @@ body {
   background-color: var(--ocean);
 }
 .explain {
-  padding-left: 156px;
+  padding: 44px 156px;
   padding: auto;
   gap: 24px;
   display: flex;
+  list-style-type: none;
 }
-.explain > h3 {
+.explain > li > h4 {
+  margin-left: 0;
   color: var(--navy-blue);
 }
 .explain > li {
   width: 264px;
   height: 104;
+  align-items: flex-start;
   text-align: left;
   color: var(--slate);
 }
 
 .team-section {
+  display: block;
+  align-content: center;
   width: 1440px;
   height: 732px;
 }
-.team-section > h2 {
-  text-align: center;
+.team {
+  padding: 120px 639px 72px;
 }
 
 .team-images {
+  margin-top: 0;
+  padding-top: 0;
   text-align: center;
   gap: 24px;
   display: flex;
+  list-style-type: none;
 }
 
 .team-images > li {
@@ -173,7 +186,7 @@ body {
 }
 
 .team-images:first-child {
-  padding: 72px 156px 120px;
+  padding: 0 156px 120px;
 }
 .ourteam {
   width: 1440px;
@@ -184,9 +197,9 @@ body {
   width: 264px;
 }
 
-.portfolio-menu > h2 {
-  padding: 120px;
-  text-align: center;
+.our-portfolio {
+  padding-left: 611px;
+  padding-bottom: 72px;
 }
 .portfolio-menu {
   width: 100%;
@@ -201,7 +214,8 @@ body {
   gap: 24px;
   flex-wrap: wrap;
   text-align: center;
-  padding: 20px 156px;
+  padding: 0px 156px;
+  list-style-type: none;
 }
 .portfolio > li > img {
   width: 360px;
@@ -233,19 +247,23 @@ h4 {
   background-size: 100%;
   font-size: 16px;
   color: white;
-  padding: 100px 156px 100px;
 }
-.foot-text{
+.logo-foot {
+  padding-top: 100px;
+  padding-left: 156px;
+}
+
+.foot-text {
+  margin-left: 156px;
   width: 264px;
   height: 72px;
-  }
+}
 
 .foot-section .web {
   font-family: var(--second-family);
   font-weight: 700px;
   size: 16px;
   color: var(--iris);
-  
 }
 .foot-section .studio-foot {
   font-family: var(--second-family);
@@ -254,11 +272,9 @@ h4 {
   font-weight: 700px;
 }
 .foot-section > a {
- 
   margin-top: 300px;
   margin-left: 156px;
   font-family: var(--Raleway);
   text-decoration: none;
   color: white;
 }
-
