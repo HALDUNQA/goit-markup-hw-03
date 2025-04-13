@@ -17,6 +17,7 @@
 }
 html {
   box-sizing: border-box;
+  background-color: var(--white);
 }
 *,
 *::before,
@@ -160,6 +161,7 @@ body {
   align-content: center;
   width: 1440px;
   height: 732px;
+  background-color: var(--cloud);
 }
 .team {
   padding: 120px 639px 72px;
@@ -177,6 +179,7 @@ body {
 .team-images > li {
   font-weight: 264px;
   height: 380px;
+  background-color: var(--white);
 }
 .team-images > h5 {
   color: var(--navy-blue);
@@ -197,17 +200,15 @@ body {
   width: 264px;
 }
 
+.portfolio-menu {
+  width: 100%;
+  height: 1100%;
+  align-items: center;
+}
 .our-portfolio {
   padding-left: 611px;
   padding-bottom: 72px;
 }
-.portfolio-menu {
-  width: 100%;
-  height: 1100%;
-
-  align-items: center;
-}
-
 .portfolio {
   display: flex;
   flex-direction: row;
@@ -216,6 +217,9 @@ body {
   text-align: center;
   padding: 0px 156px;
   list-style-type: none;
+}
+.portfolio > li {
+  background-color: var(--white);
 }
 .portfolio > li > img {
   width: 360px;
@@ -252,7 +256,9 @@ h4 {
   padding-top: 100px;
   padding-left: 156px;
 }
-
+.logo-foot > a {
+  text-decoration: none;
+}
 .foot-text {
   margin-left: 156px;
   width: 264px;
