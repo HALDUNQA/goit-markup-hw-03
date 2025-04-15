@@ -208,6 +208,7 @@ img {
 }
 .team-images > li > h5 {
   margin-top: 32px;
+  margin-bottom: 8px;
   color: var(--navy-blue);
 }
 .team-images > p {
