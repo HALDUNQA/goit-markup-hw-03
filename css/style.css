@@ -93,7 +93,7 @@ img {
 }
 
 .menu {
-  padding-left: 156px;
+  margin-left: 156px;
   margin-top: 24px;
   display: flex;
   gap: 40px;
@@ -163,6 +163,7 @@ img {
   background-color: var(--ocean);
 }
 .container {
+  width: 1440px;
   padding-left: 156px;
 }
 .explain {
@@ -272,7 +273,7 @@ h4 {
 }
 .foot-section {
   margin-top: 152px;
-  width: 1440px;
+ 
   height: 312px;
   display: block;
   background-color: var(--navy-blue);
