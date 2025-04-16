@@ -79,6 +79,8 @@ img {
 
 .studio-head {
   color: var(--navy-blue);
+  font-size: 18px;
+  font-weight: 700px;
   line-height: 21px;
   font-weight: 700px;
   font-family: var(--Raleway);
