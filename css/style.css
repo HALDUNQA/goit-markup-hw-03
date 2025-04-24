@@ -59,6 +59,7 @@ ol {
 
 a {
   text-decoration: none;
+  cursor: auto;
 }
 
 address {
@@ -115,10 +116,6 @@ img {
   color: var(--navy-blue);
   font-weight: 500px;
 
-}
-
-.studio>li/.studio :active {
-  color: var(--ocean);
 }
 
 .address {
