@@ -114,7 +114,7 @@ img {
 .menu>li {
   font-family: var(--second-family);
   color: var(--navy-blue);
-  font-weight: 500px;
+  font-weight: bold;
 
 }
 
