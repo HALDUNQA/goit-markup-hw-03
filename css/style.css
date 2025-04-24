@@ -72,6 +72,8 @@ img {
 }
 
 .logo {
+  font-size: 18px;
+  font-weight: bold;
   width: 125px;
   height: 24;
   padding-left: 156px;
@@ -115,10 +117,6 @@ img {
 
 }
 
-.menu>li>a:hover {
-  color: var(--ocean);
-}
-
 .studio>li/.studio :active {
   color: var(--ocean);
 }
@@ -132,11 +130,7 @@ img {
 .address>a {
   height: 24px;
 
-  color: var(--navy-blue);
-}
-
-.address>a:hover {
-  color: #9747ff;
+  color: var(--slate);
 }
 
 .credential {
