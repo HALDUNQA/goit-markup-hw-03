@@ -111,20 +111,17 @@ img {
   gap: 40px;
 }
 
-.menu> li> a {
+.menu>li>a {
   font-family: var(--second-family);
   color: var(--navy-blue);
   font-weight: bold;
-
 }
-.menu> li> a:hover {
+
+.menu>li>a:hover {
   font-family: var(--second-family);
   color: var(--ocean);
   font-weight: bold;
-
 }
-
-
 
 .address {
   padding: 24px 124px 24px 330px;
@@ -145,10 +142,8 @@ img {
 }
 
 .effective {
-
   height: 600px;
   background-color: var(--navy-blue);
-
   color: white;
   font-family: "Roboto", sans-serif;
   line-height: 1;
