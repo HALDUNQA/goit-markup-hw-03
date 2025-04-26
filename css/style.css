@@ -117,12 +117,16 @@ img {
   font-weight: bold;
 
 }
+
 .menu> li> a{
   color: var(--navy-blue);
 } 
 
+.menu>li >a:hover{
+ color: var(--ocean); 
+}
 .address {
-  padding: 24px 156px 24px 330px;
+  padding: 24px 124px 24px 330px;
   display: flex;
   gap: 40px;
 }
@@ -134,7 +138,7 @@ img {
 }
 
 .credential {
-  margin-left: 166px;
+  margin-left: 186px;
   display: flex;
   justify-content: space-between;
 }
