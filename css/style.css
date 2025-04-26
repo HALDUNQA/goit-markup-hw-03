@@ -111,20 +111,21 @@ img {
   gap: 40px;
 }
 
-.menu>li {
+.menu> li> a {
   font-family: var(--second-family);
   color: var(--navy-blue);
   font-weight: bold;
 
 }
+.menu> li> a:hover {
+  font-family: var(--second-family);
+  color: var(--ocean);
+  font-weight: bold;
 
-.menu> li> a{
-  color: var(--navy-blue);
-} 
-
-.menu>li >a:hover{
- color: var(--ocean); 
 }
+
+
+
 .address {
   padding: 24px 124px 24px 330px;
   display: flex;
