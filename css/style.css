@@ -106,17 +106,15 @@ img {
 }
 
 .menu {
-  
   display: flex;
   gap: 40px;
- 
 }
 
 .menu>li>a {
   font-family: var(--second-family);
   color: var(--navy-blue);
   font-weight: bold;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .menu :hover {
@@ -135,7 +133,8 @@ img {
   height: 24px;
   color: var(--slate);
 }
-.address :hover{
+
+.address :hover {
   color: var(--ocean);
 }
 
