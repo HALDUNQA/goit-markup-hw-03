@@ -72,6 +72,16 @@ img {
   height: auto;
 }
 
+.container{
+  width: 1440px;
+  margin: 0 auto;
+}
+.header-section {
+  height: 72px;
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-size: 18px;
   font-weight: bold;
@@ -95,11 +105,7 @@ img {
   margin-bottom: auto;
 }
 
-.header {
-  height: 72px;
-  display: flex;
-  align-items: center;
-}
+
 
 .contact-info {
   display: flex;
@@ -144,7 +150,7 @@ img {
   justify-content: space-between;
 }
 
-.effective {
+.effective-section {
   height: 600px;
   background-color: var(--navy-blue);
   color: white;
