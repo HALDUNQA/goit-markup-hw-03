@@ -85,7 +85,9 @@ img {
   font-weight: bold;
   width: 115px;
   height: 24px;
-  margin: 24px 156px 24px;
+  margin-top: 24px;
+  margin-left: 156px;
+  margin-bottom: 24px;
 }
 
 .studio-head {
@@ -100,14 +102,20 @@ img {
 
 
 .menu {
-  font-family: var(--second-family);
+  
   display: flex;
-  gap: 40px;
+  gap: 30px;
   justify-content: space-between;
+   margin-top: 24px;
+   margin-left: 76px;
+   margin-bottom: 24px;
+}
+.menu> li> a{
+  font-family: var(--second-family);
   color: var(--navy-blue);
+  font-weight: 500px;
   line-height: 24px;
   font-weight: bold;
-  margin: 24px 0 24px 0;
 }
 
 .menu :hover {
@@ -116,13 +124,20 @@ img {
   font-weight: bold;
 }
 
-.address {
-  display: flex;
-  font-style: normal;
-  color: var(--slate);
-  margin: 24px 0 24px 332px;
+.address{
   display: flex;
   gap: 40px;
+  margin-top: 24px;
+  margin-left: 332px;
+  margin-bottom: 24px;
+  
+}
+.address> a{
+font-family: var(--font-family);
+font-style: normal;
+color: var(--slate);
+font-weight: 400px;
+line-height: 24px;
 }
 
 .address :hover {
