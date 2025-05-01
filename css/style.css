@@ -87,6 +87,7 @@ img {
   margin-top: 24px;
   margin-left: 156px;
   margin-bottom: 24px;
+ 
 }
 
 .studio-head {
@@ -110,7 +111,7 @@ img {
    margin-bottom: 24px;
 }
 .menu> li> a{
-  font-family: var(--second-family);
+  font-family: var(--font-family);
   color: var(--navy-blue);
   font-weight: 500px;
   line-height: 24px;
@@ -237,7 +238,6 @@ line-height: 24px;
 .team-section {
   display: flex;
   align-content: center;
-
   height: 732px;
   background-color: var(--cloud);
 }
@@ -259,16 +259,20 @@ line-height: 24px;
   background-color: var(--white);
 }
 
-.team-images > li > h3 {
-  font-family:var(--font-family);
-  font-size: 20px;
-  font-weight: 500px;
-  line-height: 24px;
-  letter-spacing: 2%;
-  margin-top: 32px;
-  margin-bottom: 8px;
-  color: var(--navy-blue);
+.name{
+  
+    font-family:var(--font-family);
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    color: var(--navy-blue);
+ 
 }
+
+
 
 .team-images > li > p {
   color: var(--slate);
@@ -305,20 +309,29 @@ line-height: 24px;
 .portfolio > li > img {
   width: 360px;
 }
+.portfolio-detail{
+  border-left:  1px solid var(--cornflower);
+  border-bottom:  1px solid var(--cornflower);
+  border-right:  1px solid var(--cornflower);
 
+
+}
 .portfolio > li .portfolio-detail> h3 {
   font-style:var(--font-family);
     font-size: 20px;
   font-weight: 500px;
   line-height: 24px;
   letter-spacing: 2%;
-  margin-top: 32px;
+  padding-top: 32px;
+  padding-left: 16px;
   color: var(--navy-blue);
 }
 
 .portfolio > li .portfolio-detail> p {
   font-family: var(--font-family);
   color: var(--slate);
+  padding-bottom: 32px;
+  padding-left: 16px;
   font-size: 16px;
   font-weight: 400px;
   margin-top: 8px;
