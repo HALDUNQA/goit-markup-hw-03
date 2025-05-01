@@ -29,7 +29,6 @@ html {
 
 body {
   font-family: var(--font-family);
-
   font-size: 16px;
   font-weight: regular;
   line-height: 1, 5;
@@ -186,6 +185,7 @@ line-height: 24px;
   border: none;
   border-radius: 4px;
   margin: 48px auto;
+  cursor: pointer;
 }
 
 .effective-button:hover,
@@ -214,16 +214,23 @@ line-height: 24px;
   color: var(--slate);
 }
 
-.explain > li > h4 {
+.explain > li > h3 {
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 500px;
+  line-height: 24px;
+  letter-spacing: 2%;
   margin-left: 0;
   color: var(--navy-blue);
 }
 
-.explain > li > p {
+.explain > li > .explain-text {
   color: var(--slate);
   font-family: var(--font-family);
+  font-size: 16px;
   font-weight: 400px;
   line-height: 24px;
+  letter-spacing: 2%;
   margin-top: 8px;
 }
 
@@ -252,7 +259,12 @@ line-height: 24px;
   background-color: var(--white);
 }
 
-.team-images > li > h5 {
+.team-images > li > h3 {
+  font-family:var(--font-family);
+  font-size: 20px;
+  font-weight: 500px;
+  line-height: 24px;
+  letter-spacing: 2%;
   margin-top: 32px;
   margin-bottom: 8px;
   color: var(--navy-blue);
@@ -282,7 +294,6 @@ line-height: 24px;
   display: flex;
   flex-direction: row;
   gap: 24px;
-
   text-align: left;
   padding-top: 0;
 }
@@ -295,15 +306,17 @@ line-height: 24px;
   width: 360px;
 }
 
-.portfolio > li > h3 {
-  font-style: "Roboto";
-  font-size: 20px;
+.portfolio > li .portfolio-detail> h3 {
+  font-style:var(--font-family);
+    font-size: 20px;
   font-weight: 500px;
   line-height: 24px;
+  letter-spacing: 2%;
   margin-top: 32px;
+  color: var(--navy-blue);
 }
 
-.portfolio > li > p {
+.portfolio > li .portfolio-detail> p {
   font-family: var(--font-family);
   color: var(--slate);
   font-size: 16px;
@@ -325,7 +338,7 @@ line-height: 24px;
 .web {
   margin-top: 100px;
   font-family: var(--second-family);
-  font-weight: 700px;
+  font-weight: bold;
   size: 18px;
   letter-spacing: 3%;
   line-height: 21px;
@@ -337,7 +350,7 @@ line-height: 24px;
   size: 18px;
   line-height: 21px;
   color: var(--cloud);
-  font-weight: 700px;
+  font-weight: bold;
 }
 
 .foot-section > a {
